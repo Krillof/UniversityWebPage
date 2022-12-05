@@ -3,7 +3,7 @@
     <BodyCompetencies />
     <BodyLastCase />
   </div>
-
+Привет
 </template>
   
 <script>
