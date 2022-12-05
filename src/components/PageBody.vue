@@ -4,6 +4,7 @@
     <BodyLastCase />
   </div>
 Привет!
+  Hello
 </template>
   
 <script>
