@@ -16,10 +16,10 @@
 
 <style scoped>
 .logo{
-position: absolute;
-width: 136.99px;
-height: 19.24px;
-left: 129.9px;
-top: 34px;
+  position: absolute;
+  width: 136.99px;
+  height: 19.24px;
+  left: 129.9px;
+  top: 34px;
 }
 </style>
