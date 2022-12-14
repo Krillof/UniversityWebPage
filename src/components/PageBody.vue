@@ -1,21 +1,22 @@
 <template>
   <div>
     <BodyCompetencies />
+    <BodyTeam />
     <BodyLastCase />
   </div>
-Привет!
-  Hello
 </template>
   
 <script>
 import BodyCompetencies from './bodyComponents/BodyCompetencies.vue'
 import BodyLastCase from './bodyComponents/BodyLastCase.vue'
+import BodyTeam from './bodyComponents/BodyTeam.vue'
 
 export default {
   name: 'PageBody',
   components: {
     BodyCompetencies,
-    BodyLastCase
+    BodyLastCase,
+    BodyTeam
   }
 
 }

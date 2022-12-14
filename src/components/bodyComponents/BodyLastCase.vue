@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="cases">
     <h2>
       Последние кейсы
     </h2>
@@ -96,7 +96,11 @@
 
 <style scoped>
 /* Для заголовка сделать класс на всё приложение*/
-
+.cases{
+  position: absolute;
+  left: 130px;
+  top: 4237px;
+}
 .segment {
   height: 475px;
   margin: 10px;
