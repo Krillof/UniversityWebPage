@@ -1,10 +1,10 @@
 <template>
   <div class="header-segment-container">
     <div class="header-video">
-      <video  class="header-media" src="@/assets/video.mp4" autoplay muted loop></video>
+      <video  class="header-media" src="@/assets/header-video.mp4" autoplay muted loop></video>
     </div>
    <img class="header-druplicon" :src='require("@/assets/header-druplicon.svg")'>
-    <img class="header-Drupal-coder" :src='require("@/assets/drupal-coder.svg")'>
+    <img class="header-Drupal-coder" :src='require("@/assets/header-drupal-coder.svg")'>
     <div class="header-navigation-1">
       <a href="#">ПОДДЕРЖКА САЙТОВ</a>
     </div>
@@ -26,7 +26,7 @@
   <div class="header-language">
     RU
   </div>
-  <img class="header-arrow-lang" :src='require("@/assets/arrow-lang.svg")'>  
+  <img class="header-arrow-lang" :src='require("@/assets/header-arrow-lang.svg")'>  
   <div>
     <div class="header-segment-header-text-1">
       Поддержка <br>сайтов на Drupal
@@ -47,7 +47,7 @@
   <div class="header-segment-1">
     #1
   </div>
-    <img class="header-cup" :src='require("@/assets/cup.png")'>
+    <img class="header-cup" :src='require("@/assets/header-cup.png")'>
   <div class="header-segment-inside-1">
     Drupal-разработчик <br>в России по версии <br>Рейтинга Рунета
   </div>
@@ -227,7 +227,7 @@ a{
   height: 14px;
   right: 211px;
   top: 37px;
-  /*font-family: 'Montserrat';*/
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -239,7 +239,7 @@ width: 22px;
 height: 14px;
 right: 151px;
 top: 37px;
-/*font-family: 'Montserrat';*/
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -259,7 +259,7 @@ opacity: 0.24;
   height: 120px;
   left: 130px;
   bottom: 340px;
-  /*font-family: 'Montserrat';*/
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
@@ -275,7 +275,7 @@ opacity: 0.24;
   height: 56px;
   left: 130px;
   bottom: 269px;
-  /*font-family: 'Montserrat';*/
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -359,7 +359,7 @@ opacity: 0.24;
   left: 759px;
   right: 533px;
   top: 271px;
-  /*font-family: 'Montserrat';*/
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -373,7 +373,7 @@ opacity: 0.24;
   left: 13px;
   right: 1px;
   top: 0px;
-  /*font-family: 'Montserrat';*/
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -389,7 +389,7 @@ opacity: 0.24;
   left: 13px;
   right: 18px;
   top: 33px;
-  /*font-family: 'Montserrat';*/
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
