@@ -4,77 +4,86 @@
       Последние кейсы
     </h2>
 
-    <div class="segment-container">
-      <div class="segment segment-width-1">
-        <img class="sub-segment-img" :src='require("@/assets/last_cases_1_380x215.jpg")' />
-        <div class="segment-black-header-text-container segment-black-header-text">
-          Настройка выгрузки YML для Яндекс.Маркета
-        </div>
-        <div class="segment-black-date-container segment-black-date">
-          22.04.2019
-        </div>
-        <div class="segment-text-container segment-text">
-          Эти слова совершенно справедливы, однако гипнотический рифф продолжает паузный пласт.
-        </div>
-      </div>
-      <div class="segment segment-width-2">
-        <div class="segment-white-header-text-without-date-container segment-white-header-text">
-          Настройка выгрузки YML для Яндекс.Маркета
-        </div>
-        <img class="segment-2-img" :src='require("@/assets/last_cases_2_780x475.jpg")' />
-      </div>
-      <div class="segment segment-width-1">
-        <div class="segment-white-header-text-with-date-container">
-          <div class="segment-white-header-text">
+
+    <table class="segment-container">
+      <tr>
+        <td>
+          <img class="sub-segment-img" :src='require("@/assets/last_cases_1_380x215.jpg")' />
+          <div class="segment-black-header-text-container segment-black-header-text">
             Настройка выгрузки YML для Яндекс.Маркета
           </div>
-          <div class="segment-white-date-container segment-white-date">
+          <div class="segment-black-date-container segment-black-date">
             22.04.2019
           </div>
-        </div>
-        <img class="segment-1-img" :src='require("@/assets/last_cases_3_380x475.jpg")' />
-      </div>
-      <div class="segment segment-width-1">
-        <div class="segment-white-header-text-with-date-container">
-          <div class="segment-white-header-text">
+          <div class="segment-text-container segment-text">
+            Эти слова совершенно справедливы, однако гипнотический рифф продолжает паузный пласт.
+          </div>
+        </td>
+        <td columns="2">
+          <div class="segment-white-header-text-without-date-container segment-white-header-text">
             Настройка выгрузки YML для Яндекс.Маркета
           </div>
-          <div class="segment-white-date-container segment-white-date">
-            22.04.2019
+          <img class="segment-2-img" :src='require("@/assets/last_cases_2_780x475.jpg")' />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="segment-white-header-text-with-date-container">
+            <div class="segment-white-header-text">
+              Настройка выгрузки YML для Яндекс.Маркета
+            </div>
+            <div class="segment-white-date-container segment-white-date">
+              22.04.2019
+            </div>
           </div>
-        </div>
-        <img class="segment-1-img" :src='require("@/assets/last_cases_4_380x475.jpg")' />
-      </div>
-      <div class="segment segment-width-1">
-        <img class="sub-segment-img" :src='require("@/assets/last_cases_5_380x215.jpg")' />
-        <div class="segment-black-header-text-container segment-black-header-text">
-          Настройка выгрузки YML для Яндекс.Маркета
-        </div>
-        <div class="segment-black-date-container segment-black-date">
-          22.04.2019
-        </div>
-        <div class="segment-text-container segment-text">
-          Эти слова совершенно справедливы, однако гипнотический рифф продолжает паузный пласт.
-        </div>
-      </div>
-      <div class="segment segment-width-2">
-        <div class="segment-white-header-text-without-date-container segment-white-header-text">
-          Настройка выгрузки YML для Яндекс.Маркета
-        </div>
-        <img class="segment-2-img" :src='require("@/assets/last_cases_6_780x475.jpg")' />
-      </div>
-      <div class="segment segment-width-1">
-        <div class="segment-white-header-text-with-date-container">
-          <div class="segment-white-header-text">
+          <img class="segment-1-img" :src='require("@/assets/last_cases_3_380x475.jpg")' />
+        </td>
+        <td>
+          <div class="segment-white-header-text-with-date-container">
+            <div class="segment-white-header-text">
+              Настройка выгрузки YML для Яндекс.Маркета
+            </div>
+            <div class="segment-white-date-container segment-white-date">
+              22.04.2019
+            </div>
+          </div>
+          <img class="segment-1-img" :src='require("@/assets/last_cases_4_380x475.jpg")' />
+        </td>
+        <td>
+          <img class="sub-segment-img" :src='require("@/assets/last_cases_5_380x215.jpg")' />
+          <div class="segment-black-header-text-container segment-black-header-text">
             Настройка выгрузки YML для Яндекс.Маркета
           </div>
-          <div class="segment-white-date-container segment-white-date">
+          <div class="segment-black-date-container segment-black-date">
             22.04.2019
           </div>
-        </div>
-        <img class="segment-1-img" :src='require("@/assets/last_cases_7_380x475.jpg")' />
-      </div>
-    </div>
+          <div class="segment-text-container segment-text">
+            Эти слова совершенно справедливы, однако гипнотический рифф продолжает паузный пласт.
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td columns="2">
+          <div class="segment-white-header-text-without-date-container segment-white-header-text">
+            Настройка выгрузки YML для Яндекс.Маркета
+          </div>
+          <img class="segment-2-img" :src='require("@/assets/last_cases_6_780x475.jpg")' />
+        </td>
+        <td>
+          <div class="segment-white-header-text-with-date-container">
+            <div class="segment-white-header-text">
+              Настройка выгрузки YML для Яндекс.Маркета
+            </div>
+            <div class="segment-white-date-container segment-white-date">
+              22.04.2019
+            </div>
+          </div>
+          <img class="segment-1-img" :src='require("@/assets/last_cases_7_380x475.jpg")' />
+        </td>
+      </tr>
+    </table>
+
+ 
 
     <div class="button-show-more-container">
       <div class="button-show-more-text">
@@ -101,11 +110,7 @@
   left: 130px;
   top: 4237px;
 }
-.segment {
-  height: 475px;
-  margin: 10px;
-  float: left;
-}
+
 
 .sub-segment-img {
   height: 215px;
@@ -133,7 +138,15 @@
 .segment-container {
   max-width: 1220px;
   min-height: 1485px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
   margin: auto;
+}
+
+.segment-container>tr>td {
+  height: 475px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .segment-black-header-text-container {
