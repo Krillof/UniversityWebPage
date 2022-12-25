@@ -1,5 +1,8 @@
 <template>
-<div class="header-segment-container">
+  <div class="header-segment-container">
+    <div class="header-video">
+      <video  class="header-media" src="@/assets/video.mp4" autoplay muted loop></video>
+    </div>
    <img class="header-druplicon" :src='require("@/assets/header-druplicon.svg")'>
     <img class="header-Drupal-coder" :src='require("@/assets/drupal-coder.svg")'>
     <div class="header-navigation-1">
@@ -108,11 +111,21 @@
 <style scoped>
 .header-segment-container{
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 650px;
   left: 0px;
   top: 0px;
-  /*color: #FFFFFF;*/
+  color: #FFFFFF;
+}
+.header-video{
+  position: relative;
+}
+.header-media{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
 }
 .header-druplicon{
 position: absolute;
@@ -132,7 +145,7 @@ transform: rotate(-2deg);
 }
 a{
   text-decoration: none;
-  /*color: #FFFFFF;*/
+  color: #FFFFFF;
 }
 .header-navigation-1{
   position: absolute;
