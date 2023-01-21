@@ -273,7 +273,7 @@ top: 117px;
   position: absolute;
   width: 245.54px;
   height: 147.12px;
-  left: 50%;
+  left: 50%rrr;
   top: 0px;
   filter: drop-shadow(0px 4.97875px 0px #3D2323) drop-shadow(0px 44.0975px 17.07px rgba(0, 13, 37, 0.25));
 }
