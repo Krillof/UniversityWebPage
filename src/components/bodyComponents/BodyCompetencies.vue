@@ -118,12 +118,13 @@ export default {
 
 <style scoped>
 .services{
+  padding-top: 100px;
   position: absolute;
-    width: 100%;
-    height: 716px;
-    left: 0%;
-    top: 750px;
-    background: white;
+  width: 100%;
+  height: 716px;
+  left: 0%;
+  top: 650px;
+  background: white;
 }
 
 .servicex-text-top1{
@@ -137,7 +138,7 @@ export default {
   width: 493px;
   height: 44px;
   left: 20%;
-  top: 171px;
+  top: 271px;
 }
 
 .text-16px{
@@ -174,56 +175,56 @@ export default {
   width: 182px;
   height: 194px;
   left: 20%;
-  top: 278px;
+  top: 378px;
 }
 .adv2-2{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 36%;
-  top: 278px;
+  top: 378px;
 }
 .adv2-3{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 54%;
-  top: 278px;
+  top: 378px;
 }
 .adv2-4{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 70%;
-  top: 278px;
+  top: 378px;
 }
 .adv2-5{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 20%;
-  top: 522px;
+  top: 622px;
 }
 .adv2-6{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 36%;
-  top: 522px;
+  top: 622px;
 }
 .adv2-7{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 54%;
-  top: 522px;
+  top: 622px;
 }
 .adv2-8{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 70%;
-  top: 522px;
+  top: 622px;
 }
 
 .vector-D{

@@ -1,125 +1,128 @@
 <template>
-  <div class="tariffs">
-    <h2>
-      Тарифы
-    </h2>
+	<div>
+		<div class="tariffs">
+			<h2>
+				Тарифы
+			</h2>
 
-		<div class="rectangle-container">
-			<div class="rectangle">
+			<div class="rectangle-container">
+				<div class="rectangle">
 
-				<div class="rectangle-header">
-					<div class="orange-header">
-						Стартовый
+					<div class="rectangle-header">
+						<div class="orange-header">
+							Стартовый
+						</div>
+						<div class="money-text">
+							2000
+							<img class="ruble-picture" :src='require("@/assets/Tariffs-ruble.svg")' />
+						</div>
+						<div class="under-money-text">
+							В час
+						</div>
 					</div>
-					<div class="money-text">
-						2000
-						<img class="ruble-picture" :src='require("@/assets/Tariffs-ruble.svg")' />
+					<hr />
+					<ul class="list">
+						<li class="list-element">
+							Предоплата от 2 часов
+						</li>
+						<li class="list-element">
+							Консультации и работы по SEO
+						</li>
+						<li class="list-element">
+							Услуги дизайнера
+						</li>
+						<li class="list-element">
+							Стандартное время реакции
+						</li>
+						<li class="list-element">
+							Неиспользованные оплаченные часы переносятся на следующий месяц
+						</li>
+					</ul>
+
+					<div class="button">
+						Оставить заявку!
 					</div>
-					<div class="under-money-text">
-						В час
+
+
+				</div>
+				<div class="rectangle">
+
+					<div class="rectangle-header">
+						<div class="orange-header">
+							Бизнес
+						</div>
+						<div class="money-text">
+							2000
+							<img class="ruble-picture" :src='require("@/assets/Tariffs-ruble.svg")' />
+						</div>
+						<div class="under-money-text">
+							В час
+						</div>
+					</div>
+					<hr />
+					<ul class="list">
+						<li class="list-element">
+							Предоплата от 10 часов
+						</li>
+						<li class="list-element">
+							Консультации и работы по SEO
+						</li>
+						<li class="list-element">
+							Услуги дизайнера
+						</li>
+						<li class="list-element">
+							Высокое время реакции – до 2 рабочих дней
+						</li>
+						<li class="list-element">
+							Неиспользованные часы не переносятся
+						</li>
+					</ul>
+
+					<div class="button">
+						Оставить заявку!
 					</div>
 				</div>
-				<hr />
-				<ul class="list">
-					<li class="list-element">
-						Предоплата от 2 часов
-					</li>
-					<li class="list-element">
-						Консультации и работы по SEO
-					</li>
-					<li class="list-element">
-						Услуги дизайнера
-					</li>
-					<li class="list-element">
-						Стандартное время реакции
-					</li>
-					<li class="list-element">
-						Неиспользованные оплаченные часы переносятся на следующий месяц
-					</li>
-				</ul>
+				<div class="rectangle">
 
-				<div class="button">
-					Оставить заявку!
-				</div>
-
-
-			</div>
-			<div class="rectangle">
-
-				<div class="rectangle-header">
-					<div class="orange-header">
-						Бизнес
+					<div class="rectangle-header">
+						<div class="orange-header">
+							VIP
+						</div>
+						<div class="money-text">
+							1800
+							<img class="ruble-picture" :src='require("@/assets/Tariffs-ruble.svg")' />
+						</div>
+						<div class="under-money-text">
+							В час
+						</div>
 					</div>
-					<div class="money-text">
-						2000
-						<img class="ruble-picture" :src='require("@/assets/Tariffs-ruble.svg")' />
-					</div>
-					<div class="under-money-text">
-						В час
-					</div>
-				</div>
-				<hr />
-				<ul class="list">
-					<li class="list-element">
-						Предоплата от 10 часов
-					</li>
-					<li class="list-element">
-						Консультации и работы по SEO
-					</li>
-					<li class="list-element">
-						Услуги дизайнера
-					</li>
-					<li class="list-element">
-						Высокое время реакции – до 2 рабочих дней
-					</li>
-					<li class="list-element">
-						Неиспользованные часы не переносятся
-					</li>
-				</ul>
+					<hr />
+					<ul class="list">
+						<li class="list-element">
+							Предоплата от 100 часов
+						</li>
+						<li class="list-element">
+							Консультации и работы по SEO
+						</li>
+						<li class="list-element">
+							Услуги дизайнера
+						</li>
+						<li class="list-element">
+							Максимальное время реакции – в день обращения
+						</li>
+						<li class="list-element">
+							Неиспользованные часы не переносятся
+						</li>
+					</ul>
 
-				<div class="button">
-					Оставить заявку!
-				</div>
-			</div>
-			<div class="rectangle">
-
-				<div class="rectangle-header">
-					<div class="orange-header">
-						VIP
+					<div class="button">
+						Оставить заявку!
 					</div>
-					<div class="money-text">
-						1800
-						<img class="ruble-picture" :src='require("@/assets/Tariffs-ruble.svg")' />
-					</div>
-					<div class="under-money-text">
-						В час
-					</div>
-				</div>
-				<hr />
-				<ul class="list">
-					<li class="list-element">
-						Предоплата от 100 часов
-					</li>
-					<li class="list-element">
-						Консультации и работы по SEO
-					</li>
-					<li class="list-element">
-						Услуги дизайнера
-					</li>
-					<li class="list-element">
-						Максимальное время реакции – в день обращения
-					</li>
-					<li class="list-element">
-						Неиспользованные часы не переносятся
-					</li>
-				</ul>
-
-				<div class="button">
-					Оставить заявку!
 				</div>
 			</div>
 		</div>
-
+		<div id="text-f1">Вам не подходят наши тарифы? Оставьте заявку и мы<br>предложим вам индивидуальные условия!</div>
+		<div id="text-f2">Получить индивидуальный тариф</div>
   </div>
 </template>
 
@@ -259,5 +262,32 @@ hr {
 	opacity: 0.7;
 }
 
+#text-f1{
+	position: absolute;
+	width: 468px;
+	height: 44px;
+	left: 486px;
+	top: 3971px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+}
+#text-f2{
+	position: absolute;
+	width: 279px;
+	height: 12px;
+	left: 581px;
+	top: 4041px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 12px;
 
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+}
 </style>
