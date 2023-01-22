@@ -119,24 +119,24 @@ export default {
 <style scoped>
 .services{
   position: absolute;
-    width: 1082px;
+    width: 100%;
     height: 716px;
-    left: 130px;
+    left: 0%;
     top: 750px;
     background: white;
 }
 
 .servicex-text-top1{
   position: absolute;
-    width: 580px;
-    height: 153px;
-    left: 139px;
+  width: 580px;
+  height: 153px;
+  left: 20%;
 }
 .servicex-text-top2{
   position: absolute;
   width: 493px;
   height: 44px;
-  left: 139px;
+  left: 20%;
   top: 171px;
 }
 
@@ -173,56 +173,56 @@ export default {
   position: absolute;
   width: 182px;
   height: 194px;
-  left: 130px;
+  left: 20%;
   top: 278px;
 }
 .adv2-2{
   position: absolute;
   width: 182px;
   height: 194px;
-  left: 429px;
+  left: 36%;
   top: 278px;
 }
 .adv2-3{
   position: absolute;
   width: 182px;
   height: 194px;
-  left: 730px;
+  left: 54%;
   top: 278px;
 }
 .adv2-4{
   position: absolute;
   width: 182px;
   height: 194px;
-  left: 1030px;
+  left: 70%;
   top: 278px;
 }
 .adv2-5{
   position: absolute;
   width: 182px;
   height: 194px;
-  left: 131px;
+  left: 20%;
   top: 522px;
 }
 .adv2-6{
   position: absolute;
   width: 182px;
   height: 194px;
-  left: 429px;
+  left: 36%;
   top: 522px;
 }
 .adv2-7{
   position: absolute;
   width: 182px;
   height: 194px;
-  left: 730px;
+  left: 54%;
   top: 522px;
 }
 .adv2-8{
   position: absolute;
   width: 182px;
   height: 194px;
-  left: 1030px;
+  left: 70%;
   top: 522px;
 }
 

@@ -1,5 +1,7 @@
 <template>
   <div class="footer-conteiner">
+    <img class="footer-D" :src='require("@/assets/Footer-D.svg")'>
+    <img class="footer-d-small" :src='require("@/assets/Footer-d-small.svg")'>
     <div class="footer-form">
       <div class="footer-btm">
         <div class="footer-btm-text">
@@ -44,8 +46,6 @@
         Проект ООО «Инитлаб», Краснодар, Россия. <br> Drupal является зарегистрированной торговой маркой Dries Buytaert.
       </div>
     </div>
-    <img class="footer-D" :src='require("@/assets/Footer-D.svg")'>
-    <img class="footer-d-small" :src='require("@/assets/Footer-d-small.svg")'>
   </div>
 </template>
 
@@ -68,10 +68,10 @@
 }
 .footer-form{
   position: absolute;
-width: 480px;
-height: 478px;
-left: 830px;
-top: 117px;
+  width: 480px;
+  height: 478px;
+  left: 50%;
+  top: 117px;
 }
 .footer-btm{
   position: absolute;
@@ -139,16 +139,15 @@ top: 117px;
 }
 .footer-info{
   position: absolute;
-  width: 480px;
+  width: 100%;
   height: 439px;
-  left: 130px;
   top: 117px;
 }
 .footer-info-text-1{
   position: absolute;
   width: 480px;
   height: 102px;
-  left: 0px;
+  left: 20%;
   top: 0px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -162,7 +161,7 @@ top: 117px;
   position: absolute;
   width: 480px;
   height: 88px;
-  left: 0px;
+  left: 20%;
   top: 121px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -177,7 +176,7 @@ top: 117px;
   position: absolute;
   width: 305px;
   height: 48px;
-  left: 2px;
+  left: 20%;
   top: 351px;
   align-items: left;
   text-align: left;
@@ -186,7 +185,7 @@ top: 117px;
   position: absolute;
   width: 24px;
   height: 24px;
-  left: 2px;
+  left: 0%;
   top: 28%;
   opacity: 0.5;
 }
@@ -194,7 +193,7 @@ top: 117px;
   position: absolute;
   width: 263px;
   height: 48px;
-  left: 40px;
+  left: 10%;
   top: 0;
   font-family: 'Montserrat';
   font-style: normal;
@@ -209,7 +208,7 @@ top: 117px;
   position: absolute;
   width: 247px;
   height: 27px;
-  left: 0px;
+  left: 20%;
   top: 404px;
   align-items: left;
   text-align: left;
@@ -217,7 +216,7 @@ top: 117px;
 .footer-mail-1{
   width: 28px;
   height: 24px;
-  left: 0px;
+  left: 0%;
   top: 28%;
   opacity: 0.5;
 }
@@ -225,7 +224,7 @@ top: 117px;
   position: absolute;
   width: 203px;
   height: 27px;
-  left: 44px;
+  left: 15%;
   top: 0px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -239,10 +238,10 @@ top: 117px;
 }
 .footer-block{
   position: absolute;
-  width: 1441px;
+  width: 100%;
   height: 150px;
   left: 0px;
-  top: 666px;
+  top: 666px; 
 } 
 .footer-block-text{
   position: absolute;
@@ -253,7 +252,7 @@ top: 117px;
   text-align: left;
 }
 .footer-vector{
-  width: 1441px;
+  width: 100%;
   height: 0px;
   left: 0px;
   top: 0px; 
