@@ -28,9 +28,6 @@
     font-weight: 50;
     font-style: normal;
   }
-
-  
-
   #app {
     font-family: 'Montserrat';
     -webkit-font-smoothing: antialiased;

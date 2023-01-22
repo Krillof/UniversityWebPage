@@ -133,8 +133,6 @@ width: 830.21px;
 height: 1154.92px;
 left: -73px;
 top: -215.75px;
-background: linear-gradient(259.31deg, rgba(0, 0, 0, 0.548) -134.7%, rgba(255, 255, 255, 0) 70.26%);
-transform: rotate(-2deg);
 }
 .header-Drupal-coder{
   position: absolute;
@@ -309,14 +307,6 @@ opacity: 0.24;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.header-segment-case-top{
-  position: absolute;
-  width: 593px;
-  height: 292px;
-  left: 733px;
-  top: 204px; 
-}
-
 .header-rectangle-1{
   position: absolute;
   width: 3px;
