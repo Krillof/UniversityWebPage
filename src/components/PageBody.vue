@@ -2,9 +2,10 @@
   <div>
     <BodyCompetencies />
     <BodySupport />
-    <BodyTeam />
     <BodyTariffs />
     <BodyLastCase />
+    <BodyTeam />
+    <BodyReviews />
   </div>
 </template>
   
@@ -12,8 +13,9 @@
 import BodyCompetencies from './bodyComponents/BodyCompetencies.vue'
 import BodySupport from './bodyComponents/BodySupport.vue'
 import BodyLastCase from './bodyComponents/BodyLastCase.vue'
-import BodyTeam from './bodyComponents/BodyTeam.vue'
 import BodyTariffs from './bodyComponents/BodyTariffs.vue'
+import BodyTeam from './bodyComponents/BodyTeam.vue'
+import BodyReviews from './bodyComponents/BodyReviews.vue'
 
 export default {
   name: 'PageBody',
@@ -21,8 +23,9 @@ export default {
     BodyCompetencies,
     BodySupport,
     BodyLastCase,
+    BodyTariffs,
     BodyTeam,
-    BodyTariffs
+    BodyReviews
   }
 
 }

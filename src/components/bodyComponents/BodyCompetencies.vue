@@ -123,6 +123,7 @@ export default {
     height: 716px;
     left: 130px;
     top: 750px;
+    background: white;
 }
 
 .servicex-text-top1{
@@ -130,14 +131,13 @@ export default {
     width: 580px;
     height: 153px;
     left: 139px;
-    top: 750px;
 }
 .servicex-text-top2{
   position: absolute;
   width: 493px;
   height: 44px;
   left: 139px;
-  top: 921px;
+  top: 171px;
 }
 
 .text-16px{
@@ -174,56 +174,56 @@ export default {
   width: 182px;
   height: 194px;
   left: 130px;
-  top: 1028px;
+  top: 278px;
 }
 .adv2-2{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 429px;
-  top: 1028px;
+  top: 278px;
 }
 .adv2-3{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 730px;
-  top: 1028px;
+  top: 278px;
 }
 .adv2-4{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 1030px;
-  top: 1028px;
+  top: 278px;
 }
 .adv2-5{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 131px;
-  top: 1272px;
+  top: 522px;
 }
 .adv2-6{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 429px;
-  top: 1272px;
+  top: 522px;
 }
 .adv2-7{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 730px;
-  top: 1272px;
+  top: 522px;
 }
 .adv2-8{
   position: absolute;
   width: 182px;
   height: 194px;
   left: 1030px;
-  top: 1272px;
+  top: 522px;
 }
 
 .vector-D{

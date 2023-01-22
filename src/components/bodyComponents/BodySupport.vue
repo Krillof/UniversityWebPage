@@ -730,7 +730,7 @@
   position: absolute;
   width: 1440px;
   height: 839px;
-  top: 539px;
+  bottom: 0%;
   position: absolute;
   background: linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%, rgba(255, 255, 255, 0) 69.04%), #040613;
 }
@@ -739,6 +739,6 @@
   width: 1153.79px;
   height: 1247.9px;
   left: 380px;
-  top: 328.28px;
+  bottom: -30%;
 }
 </style>
