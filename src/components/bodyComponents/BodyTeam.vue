@@ -45,13 +45,20 @@ export default {
 
 <style scoped>
 
+#team{
+  position: absolute;
+  width: 1080px;
+  height: 966px;
+  left: 180px;
+  top: 6053px;
+
+}
 
 #header{
   position: absolute;
   width: 201px;
   height: 51px;
-  left: 619px;
-  top: 6053px;
+  left: 42%;
   font-weight: 700;
   font-size: 42px;
   line-height: 51px;
@@ -60,45 +67,34 @@ export default {
 
 #t1{
   position: absolute;
-  width: 280px;
-  height: 280px;
-  left: 180px;
-  top: 6184px;
+  top: 12%;
+  left: 5.5%;
 }
 #t2{
   position: absolute;
-  width: 280px;
-  height: 280px;
-  left: 580px;
-  top: 6184px;
+  top: 12%;
+  left: 40.28%;
 }
 #t3{
   position: absolute;
-  width: 280px;
-  height: 280px;
-  left: 980px;
-  top: 6184px;
+  top: 12%;
+  left: 75.06%;
 }
 #t4{
   position: absolute;
-  width: 280px;
-  height: 280px;
-  left: 180px;
-  top: 6640px;
+  left: 5.5%;
+  top: 60.11%;
 }
 #t5{
   position: absolute;
-  width: 280px;
-  height: 280px;
-  left: 580px;
-  top: 6640px;
+  left: 40.28%;
+  right: 40.28%;
+  top: 60.11%;
 }
 #t6{
   position: absolute;
-  width: 280px;
-  height: 280px;
-  left: 980px;
-  top: 6640px;
+  left: 75.06%;
+  top: 60.11%;
 
 }
 
