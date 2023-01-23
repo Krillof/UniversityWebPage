@@ -6,19 +6,19 @@
    <img class="header-druplicon" :src='require("@/assets/header-druplicon.svg")'>
     <img class="header-Drupal-coder" :src='require("@/assets/header-drupal-coder.svg")'>
     <div class="header-navigation-1">
-      <a href="#">ПОДДЕРЖКА САЙТОВ</a>
+      <router-link to="/bodySupport">ПОДДЕРЖКА САЙТОВ</router-link>
     </div>
     <div class="header-navigation-2">
-      <a href="#">ТАРИФЫ</a>
+      <router-link to="/bodyTariffs">ТАРИФЫ</router-link>
     </div>
     <div class="header-navigation-3">  
-      <a href="#">НАШИ РАБОТЫ</a>
+      <router-link to="/bodyPartners">НАШИ РАБОТЫ</router-link>
     </div>
     <div class="header-navigation-4">
-      <a href="#">ОТЗЫВЫ</a>
+      <router-link to="/bodyReviews">ОТЗЫВЫ</router-link>
     </div>
     <div class="header-navigation-5">
-      <a href="#">КОНТАКТЫ</a>
+      <router-link to="/pageFooter">КОНТАКТЫ</router-link>
     </div>
   <div class="header-contact">
     8 800 222-26-73
@@ -427,4 +427,6 @@ opacity: 0.24;
   top: 416px;
   text-align: left;
 }
+
+
 </style>

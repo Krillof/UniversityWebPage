@@ -147,7 +147,7 @@
   position: absolute;
   width: 480px;
   height: 102px;
-  left: 20%;
+  left: 10%;
   top: 0px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -161,7 +161,7 @@
   position: absolute;
   width: 480px;
   height: 88px;
-  left: 20%;
+  left: 10%;
   top: 121px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -176,7 +176,7 @@
   position: absolute;
   width: 305px;
   height: 48px;
-  left: 20%;
+  left: 10%;
   top: 351px;
   align-items: left;
   text-align: left;
@@ -208,7 +208,7 @@
   position: absolute;
   width: 247px;
   height: 27px;
-  left: 20%;
+  left: 10%;
   top: 404px;
   align-items: left;
   text-align: left;
