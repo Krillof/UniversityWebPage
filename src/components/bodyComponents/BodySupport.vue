@@ -137,9 +137,9 @@
 <style scoped>
 .BodySupport-case{
   position: absolute;
-  width: 1490px;
+  width: 100%;
   height: 1438px;
-  left: -50px;
+  left: 0%;
   top: 1626px;
 }
 .BodySupport-info-case{
@@ -150,16 +150,16 @@
 }
 .BodySupport-info-case-name{
   position: absolute;
-  width: 406px;
+  width: 100%;
   height: 102px;
-  left: 500px;
+  left: 0%;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
   line-height: 51px;
   text-align: center;
-  color: #050C33;
+  color: #050C33; 
 }
 .BodySupport-info-case-card{
   position: absolute;
@@ -722,9 +722,8 @@
 }
 .BodySupport-background{
   position: absolute;
-  width: 1440px;
-  height: 900px;
-  right: 0;
+  width: 100%;
+  height: 839px;
   bottom: 0%;
   position: absolute;
   background: linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%, rgba(255, 255, 255, 0) 69.04%), #040613;

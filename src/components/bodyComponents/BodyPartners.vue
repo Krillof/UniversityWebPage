@@ -6,6 +6,26 @@
     <div class="BodyPartners-case-text">
       Десятки компаний доверяют нам самое ценное, что у них есть в интернете – свои<br>сайты. Мы делаем всё, чтобы наше сотрудничество было долгим.
     </div>
+    <div class="first_slick">
+      <div class="block_img">
+          <img src="@/assets/PartnersSlick-1.png" alt="comp">
+      </div>
+      <div class="block_img">
+          <img src="@/assets/PartnersSlick-2.png" alt="comp">
+      </div>
+      <div class="block_img">
+          <img src="@/assets/PartnersSlick-3.png" alt="comp">
+      </div>
+      <div class="block_img">
+          <img src="@/assets/PartnersSlick-1.png" alt="comp">
+      </div>
+      <div class="block_img">
+          <img src="@/assets/PartnersSlick-2.png" alt="comp">
+      </div>
+      <div class="block_img">
+          <img src="@/assets/PartnersSlick-3.png" alt="comp">
+      </div>
+    </div>
   </div>
 </template>
   
@@ -13,8 +33,8 @@
 export default {
   name: 'BodyPartners',
   components: {
+  },
 
-  }
 }
 </script>
 
