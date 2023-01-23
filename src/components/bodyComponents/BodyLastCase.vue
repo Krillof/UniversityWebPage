@@ -107,7 +107,7 @@
 /* Для заголовка сделать класс на всё приложение*/
 .cases{
   position: absolute;
-  left: 130px;
+  left: 9%;
   top: 4237px;
 }
 
